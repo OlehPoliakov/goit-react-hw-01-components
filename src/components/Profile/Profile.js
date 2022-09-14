@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './Profile.module.css';
 
 export default function Profile({
-  username = 'User Name',
+  username,
   tag,
   location,
   avatar,
@@ -46,9 +46,5 @@ Profile.prototype = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string,
-  stats: PropTypes.shape({
-    followers: PropTypes.number,
-    views: PropTypes.number,
-    likes: PropTypes.number,
-  }),
+  stats: PropTypes.shape(),
 };
