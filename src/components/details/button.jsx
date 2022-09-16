@@ -34,3 +34,15 @@ export const Button = ({
     </StyleButton>
   );
 };
+
+
+
+// import { Button } from "../details/button";
+
+// import { HiBan, HiAdjustments, HiAtSymbol } from 'react-icons/hi';
+
+        {
+          /* <Button icon={<HiBan />}>Search</Button>
+        <Button icon={<HiAdjustments />}>qwe</Button>
+        <Button icon={<HiAtSymbol />}>asd</Button> */
+        }

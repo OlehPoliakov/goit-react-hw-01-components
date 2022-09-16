@@ -5,7 +5,10 @@ export const theme = Object.freeze({
     primery: '#010101',
     secondary: '#808080',
     border: '#dddddd',
-    background: 'whitesmoke',
+    background: '#f1f1f1',
+    red: '#00a400',
+    green: '#fa383e',
+    blue: '#2a99f3',
   },
 
   spacing: value => `${2 * value}px`,
