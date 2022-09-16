@@ -1,4 +1,3 @@
-import { type } from '@testing-library/user-event/dist/type/index.js';
 import PropTypes from 'prop-types';
 import {
   FriendList,
